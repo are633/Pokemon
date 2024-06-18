@@ -1,0 +1,25 @@
+.sticky{
+    position: fixed;
+    right: 0;
+    top:70px;
+}
+
+
+.sticky img:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width:990px) {
+    .sticky{
+        position: static;
+        width: 100%;
+    } 
+    .sticky img{
+        width: 100%;
+    }
+
+
+   
+    
+}
